@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sua calculadora!</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      let num1 = window.prompt("digite um número a ser somado");
+      num1 = parsefloat(num1);
+      let num2 = window.prompt("digite um númer a ser somado");
+      num2 = parsefloat(num2);
+
+      let soma = num1 + num2;
+      alert(soma);
+      let num3 = window.prompt("digite um número a ser subtraido");
+
+      let num4 = window.prompt("digite outro número a ser subtraido");
+
+      let subtracao = num3 - num4;
+      alert(subtracao);
+      let num5 = window.prompt("digite um número a ser multiplicado");
+
+      let num6 = window.prompt("digite outro número a ser multiplicado");
+      let multiplicacao = num5 * num6;
+      alert(multiplicacao);
+
+      let num7 = window.prompt("digite um número a ser dividido");
+
+      let num8 = window.prompt("digite outro número a ser dividido ");
+      let divisao = num7 / num8;
+      alert(divisao);
+      let num9 = window.prompt("digite um número para ver sua potencia");
+
+      let num10 = window.prompt("digite outro número para ver sua potencia  ");
+      let potencia = num9 ** num10;
+      alert(potencia);
+    </script>
+  </body>
+</html>
